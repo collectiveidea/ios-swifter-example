@@ -12,8 +12,7 @@
 		57F4B13120F93BEC00AC53F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57F4B12F20F93BEC00AC53F7 /* Main.storyboard */; };
 		57F4B13320F93BEF00AC53F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F4B13220F93BEF00AC53F7 /* Assets.xcassets */; };
 		57F4B13620F93BEF00AC53F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57F4B13420F93BEF00AC53F7 /* LaunchScreen.storyboard */; };
-		57F4B14120F93BEF00AC53F7 /* SwifterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F4B14020F93BEF00AC53F7 /* SwifterTests.swift */; };
-		57F4B14C20F93BEF00AC53F7 /* SwifterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F4B14B20F93BEF00AC53F7 /* SwifterUITests.swift */; };
+		57F4B15B20F93D3700AC53F7 /* Swifter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F4B15A20F93D3700AC53F7 /* Swifter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +41,10 @@
 		57F4B13520F93BEF00AC53F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57F4B13720F93BEF00AC53F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57F4B13C20F93BEF00AC53F7 /* SwifterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwifterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		57F4B14020F93BEF00AC53F7 /* SwifterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwifterTests.swift; sourceTree = "<group>"; };
 		57F4B14220F93BEF00AC53F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57F4B14720F93BEF00AC53F7 /* SwifterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwifterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		57F4B14B20F93BEF00AC53F7 /* SwifterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwifterUITests.swift; sourceTree = "<group>"; };
 		57F4B14D20F93BEF00AC53F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57F4B15A20F93D3700AC53F7 /* Swifter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swifter.framework; path = Carthage/Build/iOS/Swifter.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57F4B15B20F93D3700AC53F7 /* Swifter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +76,11 @@
 		57F4B11F20F93BEC00AC53F7 = {
 			isa = PBXGroup;
 			children = (
-				57F4B12A20F93BEC00AC53F7 /* Swifter */,
-				57F4B13F20F93BEF00AC53F7 /* SwifterTests */,
-				57F4B14A20F93BEF00AC53F7 /* SwifterUITests */,
+				57F4B12A20F93BEC00AC53F7 /* Swifter-Example */,
+				57F4B13F20F93BEF00AC53F7 /* Swifter-ExampleTests */,
+				57F4B14A20F93BEF00AC53F7 /* Swifter-ExampleUITests */,
 				57F4B12920F93BEC00AC53F7 /* Products */,
+				57F4B15920F93D3700AC53F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,7 +94,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		57F4B12A20F93BEC00AC53F7 /* Swifter */ = {
+		57F4B12A20F93BEC00AC53F7 /* Swifter-Example */ = {
 			isa = PBXGroup;
 			children = (
 				57F4B12B20F93BEC00AC53F7 /* AppDelegate.swift */,
@@ -104,25 +104,33 @@
 				57F4B13420F93BEF00AC53F7 /* LaunchScreen.storyboard */,
 				57F4B13720F93BEF00AC53F7 /* Info.plist */,
 			);
-			path = Swifter;
+			path = "Swifter-Example";
 			sourceTree = "<group>";
 		};
-		57F4B13F20F93BEF00AC53F7 /* SwifterTests */ = {
+		57F4B13F20F93BEF00AC53F7 /* Swifter-ExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				57F4B14020F93BEF00AC53F7 /* SwifterTests.swift */,
+				5739707020FCDFFA00E4C1B9 /* PersonFromJsonTest.swift */,
+				5739706E20FCDDE700E4C1B9 /* PersonStubbedJSON.swift */,
 				57F4B14220F93BEF00AC53F7 /* Info.plist */,
 			);
-			path = SwifterTests;
+			path = "Swifter-ExampleTests";
 			sourceTree = "<group>";
 		};
-		57F4B14A20F93BEF00AC53F7 /* SwifterUITests */ = {
+		57F4B14A20F93BEF00AC53F7 /* Swifter-ExampleUITests */ = {
 			isa = PBXGroup;
 			children = (
-				57F4B14B20F93BEF00AC53F7 /* SwifterUITests.swift */,
 				57F4B14D20F93BEF00AC53F7 /* Info.plist */,
 			);
-			path = SwifterUITests;
+			path = "Swifter-ExampleUITests";
+			sourceTree = "<group>";
+		};
+		57F4B15920F93D3700AC53F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57F4B15A20F93D3700AC53F7 /* Swifter.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +143,7 @@
 				57F4B12420F93BEC00AC53F7 /* Sources */,
 				57F4B12520F93BEC00AC53F7 /* Frameworks */,
 				57F4B12620F93BEC00AC53F7 /* Resources */,
+				57F4B15C20F93DA200AC53F7 /* Carthage Run Script */,
 			);
 			buildRules = (
 			);
@@ -204,7 +213,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 57F4B12320F93BEC00AC53F7 /* Build configuration list for PBXProject "Swifter" */;
+			buildConfigurationList = 57F4B12320F93BEC00AC53F7 /* Build configuration list for PBXProject "Swifter-Example" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -251,6 +260,25 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		57F4B15C20F93DA200AC53F7 /* Carthage Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Swifter.framework",
+			);
+			name = "Carthage Run Script";
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Swifter.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		57F4B12420F93BEC00AC53F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -265,7 +293,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57F4B14120F93BEF00AC53F7 /* SwifterTests.swift in Sources */,
+				5739706F20FCDDE700E4C1B9 /* PersonStubbedJSON.swift in Sources */,
+				5739707220FCE0E900E4C1B9 /* Person.swift in Sources */,
+				5739707120FCDFFA00E4C1B9 /* PersonFromJsonTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +303,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57F4B14C20F93BEF00AC53F7 /* SwifterUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,7 +461,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3MXD5J8GME;
-				INFOPLIST_FILE = Swifter/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Swifter-Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +483,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3MXD5J8GME;
-				INFOPLIST_FILE = Swifter/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Swifter-Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -547,7 +584,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		57F4B12320F93BEC00AC53F7 /* Build configuration list for PBXProject "Swifter" */ = {
+		57F4B12320F93BEC00AC53F7 /* Build configuration list for PBXProject "Swifter-Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				57F4B14E20F93BEF00AC53F7 /* Debug */,
