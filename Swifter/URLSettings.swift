@@ -3,9 +3,15 @@ import Foundation
 
 struct URLSettings {
     
-    var baseURL: String {
+    private var baseURL: String {
         get {
-            return "http://thisIsntReal.com/APIv1"
+            return "http://collectiveidea.com/swifterAPI"
+        }
+    }
+    
+    var peopleURL: String {
+        get {
+            return baseURL + "/people"
         }
     }
     

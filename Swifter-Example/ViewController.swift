@@ -9,9 +9,23 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var tableView: UITableView!
+    
+    var people = [Person]()
+    let repo = PersonRepository()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        repo.getPeople { (people, error) in
+            if let people = people {
+                self.people = people
+                self.tableView.reloadData()
+            } else if let error = error {
+                print(error)
+            }
+        }
     }
 
 }
@@ -19,11 +33,19 @@ class ViewController: UIViewController {
 extension ViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+        return people.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let person = people[indexPath.row]
+        
         let personCell =  tableView.dequeueReusableCell(withIdentifier: "personCell") as! PersonCell
+        personCell.nameLabel.text = person.name
+        
+        let favorites = person.favoriteThings.joined(separator: ", ")
+        
+        personCell.favoritesLabel.text = favorites
         
         return personCell
     }
