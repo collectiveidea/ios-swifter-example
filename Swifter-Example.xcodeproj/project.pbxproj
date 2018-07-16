@@ -10,11 +10,12 @@
 		5739706B20FCDBCC00E4C1B9 /* URLSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5739706A20FCDBCC00E4C1B9 /* URLSettings.swift */; };
 		5739706D20FCDD9C00E4C1B9 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5739706C20FCDD9C00E4C1B9 /* Person.swift */; };
 		5739706F20FCDDE700E4C1B9 /* PersonStubbedJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5739706E20FCDDE700E4C1B9 /* PersonStubbedJSON.swift */; };
-		5739707120FCDFFA00E4C1B9 /* PersonFromJsonTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5739707020FCDFFA00E4C1B9 /* PersonFromJsonTest.swift */; };
 		5739707220FCE0E900E4C1B9 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5739706C20FCDD9C00E4C1B9 /* Person.swift */; };
 		5739707420FCEA1300E4C1B9 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5739707320FCEA1300E4C1B9 /* PersonCell.swift */; };
 		5739707620FD200700E4C1B9 /* PersonRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5739707520FD200700E4C1B9 /* PersonRepository.swift */; };
 		5739707720FD246A00E4C1B9 /* PersonStubbedJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5739706E20FCDDE700E4C1B9 /* PersonStubbedJSON.swift */; };
+		5739707B20FD362300E4C1B9 /* Swifter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F4B15A20F93D3700AC53F7 /* Swifter.framework */; };
+		57DA47A120FD8B830016E679 /* PersonFromJsonTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5739707020FCDFFA00E4C1B9 /* PersonFromJsonTest.swift */; };
 		57F4B12C20F93BEC00AC53F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F4B12B20F93BEC00AC53F7 /* AppDelegate.swift */; };
 		57F4B12E20F93BEC00AC53F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F4B12D20F93BEC00AC53F7 /* ViewController.swift */; };
 		57F4B13120F93BEC00AC53F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57F4B12F20F93BEC00AC53F7 /* Main.storyboard */; };
@@ -47,16 +48,16 @@
 		5739707020FCDFFA00E4C1B9 /* PersonFromJsonTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonFromJsonTest.swift; sourceTree = "<group>"; };
 		5739707320FCEA1300E4C1B9 /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
 		5739707520FD200700E4C1B9 /* PersonRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonRepository.swift; sourceTree = "<group>"; };
-		57F4B12820F93BEC00AC53F7 /* Swifter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swifter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57F4B12820F93BEC00AC53F7 /* Swifter-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swifter-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57F4B12B20F93BEC00AC53F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57F4B12D20F93BEC00AC53F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		57F4B13020F93BEC00AC53F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		57F4B13220F93BEF00AC53F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57F4B13520F93BEF00AC53F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57F4B13720F93BEF00AC53F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		57F4B13C20F93BEF00AC53F7 /* SwifterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwifterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57F4B13C20F93BEF00AC53F7 /* Swifter-ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swifter-ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57F4B14220F93BEF00AC53F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		57F4B14720F93BEF00AC53F7 /* SwifterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwifterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57F4B14720F93BEF00AC53F7 /* Swifter-ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swifter-ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57F4B14D20F93BEF00AC53F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57F4B15A20F93D3700AC53F7 /* Swifter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swifter.framework; path = Carthage/Build/iOS/Swifter.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5739707B20FD362300E4C1B9 /* Swifter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,9 +103,9 @@
 		57F4B12920F93BEC00AC53F7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				57F4B12820F93BEC00AC53F7 /* Swifter.app */,
-				57F4B13C20F93BEF00AC53F7 /* SwifterTests.xctest */,
-				57F4B14720F93BEF00AC53F7 /* SwifterUITests.xctest */,
+				57F4B12820F93BEC00AC53F7 /* Swifter-Example.app */,
+				57F4B13C20F93BEF00AC53F7 /* Swifter-ExampleTests.xctest */,
+				57F4B14720F93BEF00AC53F7 /* Swifter-ExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,9 +156,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		57F4B12720F93BEC00AC53F7 /* Swifter */ = {
+		57F4B12720F93BEC00AC53F7 /* Swifter-Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 57F4B15020F93BEF00AC53F7 /* Build configuration list for PBXNativeTarget "Swifter" */;
+			buildConfigurationList = 57F4B15020F93BEF00AC53F7 /* Build configuration list for PBXNativeTarget "Swifter-Example" */;
 			buildPhases = (
 				57F4B12420F93BEC00AC53F7 /* Sources */,
 				57F4B12520F93BEC00AC53F7 /* Frameworks */,
@@ -167,14 +169,14 @@
 			);
 			dependencies = (
 			);
-			name = Swifter;
+			name = "Swifter-Example";
 			productName = Swifter;
-			productReference = 57F4B12820F93BEC00AC53F7 /* Swifter.app */;
+			productReference = 57F4B12820F93BEC00AC53F7 /* Swifter-Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		57F4B13B20F93BEF00AC53F7 /* SwifterTests */ = {
+		57F4B13B20F93BEF00AC53F7 /* Swifter-ExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 57F4B15320F93BEF00AC53F7 /* Build configuration list for PBXNativeTarget "SwifterTests" */;
+			buildConfigurationList = 57F4B15320F93BEF00AC53F7 /* Build configuration list for PBXNativeTarget "Swifter-ExampleTests" */;
 			buildPhases = (
 				57F4B13820F93BEF00AC53F7 /* Sources */,
 				57F4B13920F93BEF00AC53F7 /* Frameworks */,
@@ -185,27 +187,28 @@
 			dependencies = (
 				57F4B13E20F93BEF00AC53F7 /* PBXTargetDependency */,
 			);
-			name = SwifterTests;
+			name = "Swifter-ExampleTests";
 			productName = SwifterTests;
-			productReference = 57F4B13C20F93BEF00AC53F7 /* SwifterTests.xctest */;
+			productReference = 57F4B13C20F93BEF00AC53F7 /* Swifter-ExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		57F4B14620F93BEF00AC53F7 /* SwifterUITests */ = {
+		57F4B14620F93BEF00AC53F7 /* Swifter-ExampleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 57F4B15620F93BEF00AC53F7 /* Build configuration list for PBXNativeTarget "SwifterUITests" */;
+			buildConfigurationList = 57F4B15620F93BEF00AC53F7 /* Build configuration list for PBXNativeTarget "Swifter-ExampleUITests" */;
 			buildPhases = (
 				57F4B14320F93BEF00AC53F7 /* Sources */,
 				57F4B14420F93BEF00AC53F7 /* Frameworks */,
 				57F4B14520F93BEF00AC53F7 /* Resources */,
+				5739707A20FD35C000E4C1B9 /* Carthage Run Script */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				57F4B14920F93BEF00AC53F7 /* PBXTargetDependency */,
 			);
-			name = SwifterUITests;
+			name = "Swifter-ExampleUITests";
 			productName = SwifterUITests;
-			productReference = 57F4B14720F93BEF00AC53F7 /* SwifterUITests.xctest */;
+			productReference = 57F4B14720F93BEF00AC53F7 /* Swifter-ExampleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -244,9 +247,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				57F4B12720F93BEC00AC53F7 /* Swifter */,
-				57F4B13B20F93BEF00AC53F7 /* SwifterTests */,
-				57F4B14620F93BEF00AC53F7 /* SwifterUITests */,
+				57F4B12720F93BEC00AC53F7 /* Swifter-Example */,
+				57F4B13B20F93BEF00AC53F7 /* Swifter-ExampleTests */,
+				57F4B14620F93BEF00AC53F7 /* Swifter-ExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -279,6 +282,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		5739707A20FD35C000E4C1B9 /* Carthage Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Swifter.framework",
+			);
+			name = "Carthage Run Script";
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Swifter.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
 		57F4B15C20F93DA200AC53F7 /* Carthage Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -318,7 +337,7 @@
 			files = (
 				5739706F20FCDDE700E4C1B9 /* PersonStubbedJSON.swift in Sources */,
 				5739707220FCE0E900E4C1B9 /* Person.swift in Sources */,
-				5739707120FCDFFA00E4C1B9 /* PersonFromJsonTest.swift in Sources */,
+				57DA47A120FD8B830016E679 /* PersonFromJsonTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,12 +353,12 @@
 /* Begin PBXTargetDependency section */
 		57F4B13E20F93BEF00AC53F7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 57F4B12720F93BEC00AC53F7 /* Swifter */;
+			target = 57F4B12720F93BEC00AC53F7 /* Swifter-Example */;
 			targetProxy = 57F4B13D20F93BEF00AC53F7 /* PBXContainerItemProxy */;
 		};
 		57F4B14920F93BEF00AC53F7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 57F4B12720F93BEC00AC53F7 /* Swifter */;
+			target = 57F4B12720F93BEC00AC53F7 /* Swifter-Example */;
 			targetProxy = 57F4B14820F93BEF00AC53F7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -529,7 +548,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3MXD5J8GME;
-				INFOPLIST_FILE = SwifterTests/Info.plist;
+				INFOPLIST_FILE = "Swifter-ExampleTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -539,7 +558,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swifter.app/Swifter";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swifter-Example.app/Swifter-Example";
 			};
 			name = Debug;
 		};
@@ -550,7 +569,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3MXD5J8GME;
-				INFOPLIST_FILE = SwifterTests/Info.plist;
+				INFOPLIST_FILE = "Swifter-ExampleTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -560,7 +579,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swifter.app/Swifter";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swifter-Example.app/Swifter-Example";
 			};
 			name = Release;
 		};
@@ -570,7 +589,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3MXD5J8GME;
-				INFOPLIST_FILE = SwifterUITests/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Swifter-ExampleUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -590,7 +613,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3MXD5J8GME;
-				INFOPLIST_FILE = SwifterUITests/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Swifter-ExampleUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -616,7 +643,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		57F4B15020F93BEF00AC53F7 /* Build configuration list for PBXNativeTarget "Swifter" */ = {
+		57F4B15020F93BEF00AC53F7 /* Build configuration list for PBXNativeTarget "Swifter-Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				57F4B15120F93BEF00AC53F7 /* Debug */,
@@ -625,7 +652,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		57F4B15320F93BEF00AC53F7 /* Build configuration list for PBXNativeTarget "SwifterTests" */ = {
+		57F4B15320F93BEF00AC53F7 /* Build configuration list for PBXNativeTarget "Swifter-ExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				57F4B15420F93BEF00AC53F7 /* Debug */,
@@ -634,7 +661,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		57F4B15620F93BEF00AC53F7 /* Build configuration list for PBXNativeTarget "SwifterUITests" */ = {
+		57F4B15620F93BEF00AC53F7 /* Build configuration list for PBXNativeTarget "Swifter-ExampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				57F4B15720F93BEF00AC53F7 /* Debug */,
