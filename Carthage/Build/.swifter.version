@@ -1,0 +1,9 @@
+{
+  "commitish" : "1.4.2",
+  "iOS" : [
+    {
+      "name" : "Swifter",
+      "hash" : "242bf8b0ef6e41fc4f569b205779452b41a1d16715f6357d2b6a959e35d12801"
+    }
+  ]
+}
