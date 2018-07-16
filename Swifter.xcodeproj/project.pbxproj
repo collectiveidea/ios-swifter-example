@@ -12,6 +12,7 @@
 		5739706F20FCDDE700E4C1B9 /* PersonStubbedJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5739706E20FCDDE700E4C1B9 /* PersonStubbedJSON.swift */; };
 		5739707120FCDFFA00E4C1B9 /* PersonFromJsonTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5739707020FCDFFA00E4C1B9 /* PersonFromJsonTest.swift */; };
 		5739707220FCE0E900E4C1B9 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5739706C20FCDD9C00E4C1B9 /* Person.swift */; };
+		5739707420FCEA1300E4C1B9 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5739707320FCEA1300E4C1B9 /* PersonCell.swift */; };
 		57F4B12C20F93BEC00AC53F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F4B12B20F93BEC00AC53F7 /* AppDelegate.swift */; };
 		57F4B12E20F93BEC00AC53F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F4B12D20F93BEC00AC53F7 /* ViewController.swift */; };
 		57F4B13120F93BEC00AC53F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57F4B12F20F93BEC00AC53F7 /* Main.storyboard */; };
@@ -44,6 +45,7 @@
 		5739706C20FCDD9C00E4C1B9 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		5739706E20FCDDE700E4C1B9 /* PersonStubbedJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonStubbedJSON.swift; sourceTree = "<group>"; };
 		5739707020FCDFFA00E4C1B9 /* PersonFromJsonTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonFromJsonTest.swift; sourceTree = "<group>"; };
+		5739707320FCEA1300E4C1B9 /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
 		57F4B12820F93BEC00AC53F7 /* Swifter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swifter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57F4B12B20F93BEC00AC53F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57F4B12D20F93BEC00AC53F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				5739706A20FCDBCC00E4C1B9 /* URLSettings.swift */,
 				5739706C20FCDD9C00E4C1B9 /* Person.swift */,
 				57F4B12F20F93BEC00AC53F7 /* Main.storyboard */,
+				5739707320FCEA1300E4C1B9 /* PersonCell.swift */,
 				57F4B13220F93BEF00AC53F7 /* Assets.xcassets */,
 				57F4B13420F93BEF00AC53F7 /* LaunchScreen.storyboard */,
 				57F4B13720F93BEF00AC53F7 /* Info.plist */,
@@ -302,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57F4B12E20F93BEC00AC53F7 /* ViewController.swift in Sources */,
+				5739707420FCEA1300E4C1B9 /* PersonCell.swift in Sources */,
 				57F4B12C20F93BEC00AC53F7 /* AppDelegate.swift in Sources */,
 				5739706D20FCDD9C00E4C1B9 /* Person.swift in Sources */,
 				5739706B20FCDBCC00E4C1B9 /* URLSettings.swift in Sources */,
