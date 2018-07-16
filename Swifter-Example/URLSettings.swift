@@ -5,7 +5,7 @@ struct URLSettings {
     
     private var baseURL: String {
         get {
-            return "http://collectiveidea.com/swifterAPI"
+            return "https://not.real/swifterAPI"
         }
     }
     
