@@ -15,6 +15,10 @@
 		5739707620FD200700E4C1B9 /* PersonRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5739707520FD200700E4C1B9 /* PersonRepository.swift */; };
 		5739707720FD246A00E4C1B9 /* PersonStubbedJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5739706E20FCDDE700E4C1B9 /* PersonStubbedJSON.swift */; };
 		5739707B20FD362300E4C1B9 /* Swifter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F4B15A20F93D3700AC53F7 /* Swifter.framework */; };
+		5783535E20FE459500483AC4 /* DynamicStubs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5783535D20FE459500483AC4 /* DynamicStubs.swift */; };
+		5783535F20FE459500483AC4 /* DynamicStubs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5783535D20FE459500483AC4 /* DynamicStubs.swift */; };
+		5783536120FE46F900483AC4 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5783536020FE46F900483AC4 /* ViewControllerTests.swift */; };
+		5783536220FE478400483AC4 /* PersonStubbedJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5739706E20FCDDE700E4C1B9 /* PersonStubbedJSON.swift */; };
 		57DA47A120FD8B830016E679 /* PersonFromJsonTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5739707020FCDFFA00E4C1B9 /* PersonFromJsonTest.swift */; };
 		57F4B12C20F93BEC00AC53F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F4B12B20F93BEC00AC53F7 /* AppDelegate.swift */; };
 		57F4B12E20F93BEC00AC53F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F4B12D20F93BEC00AC53F7 /* ViewController.swift */; };
@@ -48,6 +52,8 @@
 		5739707020FCDFFA00E4C1B9 /* PersonFromJsonTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonFromJsonTest.swift; sourceTree = "<group>"; };
 		5739707320FCEA1300E4C1B9 /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
 		5739707520FD200700E4C1B9 /* PersonRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonRepository.swift; sourceTree = "<group>"; };
+		5783535D20FE459500483AC4 /* DynamicStubs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicStubs.swift; sourceTree = "<group>"; };
+		5783536020FE46F900483AC4 /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 		57F4B12820F93BEC00AC53F7 /* Swifter-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swifter-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57F4B12B20F93BEC00AC53F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57F4B12D20F93BEC00AC53F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -141,6 +147,8 @@
 			isa = PBXGroup;
 			children = (
 				57F4B14D20F93BEF00AC53F7 /* Info.plist */,
+				5783535D20FE459500483AC4 /* DynamicStubs.swift */,
+				5783536020FE46F900483AC4 /* ViewControllerTests.swift */,
 			);
 			path = "Swifter-ExampleUITests";
 			sourceTree = "<group>";
@@ -230,6 +238,7 @@
 					};
 					57F4B14620F93BEF00AC53F7 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 						TestTargetID = 57F4B12720F93BEC00AC53F7;
 					};
 				};
@@ -324,6 +333,7 @@
 				5739707620FD200700E4C1B9 /* PersonRepository.swift in Sources */,
 				57F4B12E20F93BEC00AC53F7 /* ViewController.swift in Sources */,
 				5739707420FCEA1300E4C1B9 /* PersonCell.swift in Sources */,
+				5783535E20FE459500483AC4 /* DynamicStubs.swift in Sources */,
 				57F4B12C20F93BEC00AC53F7 /* AppDelegate.swift in Sources */,
 				5739706D20FCDD9C00E4C1B9 /* Person.swift in Sources */,
 				5739706B20FCDBCC00E4C1B9 /* URLSettings.swift in Sources */,
@@ -345,6 +355,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5783536120FE46F900483AC4 /* ViewControllerTests.swift in Sources */,
+				5783536220FE478400483AC4 /* PersonStubbedJSON.swift in Sources */,
+				5783535F20FE459500483AC4 /* DynamicStubs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -545,7 +558,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3MXD5J8GME;
 				INFOPLIST_FILE = "Swifter-ExampleTests/Info.plist";
@@ -566,7 +578,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3MXD5J8GME;
 				INFOPLIST_FILE = "Swifter-ExampleTests/Info.plist";
@@ -587,6 +598,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3MXD5J8GME;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -601,9 +613,11 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.collectiveidea.SwifterUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Swifter;
+				TEST_TARGET_NAME = "Swifter-Example";
 			};
 			name = Debug;
 		};
@@ -611,6 +625,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3MXD5J8GME;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -625,9 +640,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.collectiveidea.SwifterUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Swifter;
+				TEST_TARGET_NAME = "Swifter-Example";
 			};
 			name = Release;
 		};

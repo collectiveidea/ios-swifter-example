@@ -10,9 +10,9 @@ class PersonRepository {
         
         dataTask?.cancel()
         
-        let url = URL(fileURLWithPath: URLSettings().peopleURL)
+        let url = URL(string: URLSettings().peopleURL)
         
-        dataTask = session.dataTask(with: url) { (data, response, error) in
+        dataTask = session.dataTask(with: url!) { (data, response, error) in
             defer { self.dataTask = nil }
             
             DispatchQueue.main.async {
