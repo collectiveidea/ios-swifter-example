@@ -5,7 +5,11 @@ struct URLSettings {
     
     private var baseURL: String {
         get {
-            return "http://collectiveidea.com/swifterAPI"
+            if ProcessInfo.processInfo.arguments.contains("TESTING") {
+                return "http://localhost:8080/"
+            } else {
+                return "http://collectiveidea.com/swifterAPI"
+            }
         }
     }
     
